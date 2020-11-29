@@ -64,7 +64,7 @@ namespace CommandLineMenu
             }
 
             // Runs selected option
-            string output = selectedOption.RunOption();
+            string output = selectedOption.RunOption(menuQuitParameter);
             Console.Write("--[OUTPUT]--\n" + output);
             Console.WriteLine("\nPress any key to continue. . .");
             Console.ReadKey();

@@ -10,7 +10,13 @@ namespace CommandLineMenu
             MenuOption[] menuOptions = new MenuOption[0]{
             };
 
-            MenuGenerator.RunMenu(menuOptions, "CMD Programs Menu");
+            // Creates quit parameter
+            QuitParameter quitMenu = new QuitParameter();
+
+            while (!quitMenu.quit)
+            {
+                MenuGenerator.RunMenu(menuOptions, "CMD Programs Menu", quitMenu);
+            }
         }
     }
 }
