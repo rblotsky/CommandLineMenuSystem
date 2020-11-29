@@ -1,12 +1,16 @@
-﻿using System;
+using System;
 
-namespace CommandLineMenuSystem
+namespace CommandLineMenu
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Creates menu
+            MenuOption[] menuOptions = new MenuOption[0]{
+            };
+
+            MenuGenerator.RunMenu(menuOptions, "CMD Programs Menu");
         }
     }
 }
