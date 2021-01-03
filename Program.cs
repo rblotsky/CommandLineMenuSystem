@@ -7,7 +7,8 @@ namespace CommandLineMenu
         static void Main(string[] args)
         {
             // Creates menu
-            MenuOption[] menuOptions = new MenuOption[0]{
+            MenuOption[] menuOptions = new MenuOption[1]{
+                new QuitOption("Quit");
             };
 
             // Creates quit parameter
