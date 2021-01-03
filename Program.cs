@@ -16,7 +16,7 @@ namespace CommandLineMenu
 
             while (!quitMenu.quit)
             {
-                MenuGenerator.RunMenu(menuOptions, "CMD Programs Menu", quitMenu);
+                MenuGenerator.RunMenu(menuOptions, "Example Menu", quitMenu);
             }
         }
     }
