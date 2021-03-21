@@ -9,6 +9,8 @@ How To Use
 4. To run the menu:
 
    a. Make an array of menu options
+   
    b. Create a QuitParameter instance (this will designate when the menu should be exited)
+   
    c. Use `MenuGenerator.RunMenu` to write a new menu to the screen. If you want to return to the menu after running an option, put it in a loop until `QuitParameter.quit` is set to true.
   
