@@ -1,5 +1,7 @@
 # CommandLineMenuSystem
-A very simple but flexible command-line menu system 
+A simple but flexible command-line menu system in C# using abstract classes for menu options.
+
+**Last Updated:** January 2021
 
 ## How To Use
 1. Copy the files `MenuGenerator.cs`, `MenuOptionBase.cs`, `QuitParameter.cs` into your project.
