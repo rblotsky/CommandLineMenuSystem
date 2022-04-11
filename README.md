@@ -1,7 +1,7 @@
-## CommandLineMenuSystem
+# CommandLineMenuSystem
 A very simple but flexible command-line menu system 
 
-# How To Use
+## How To Use
 1. Copy the files `MenuGenerator.cs`, `MenuOptionBase.cs`, `QuitParameter.cs` into your project.
 2. All new menu options should inherit from MenuOptionBase.cs, and override the abstract functions to implement whatever functionality is desired.
 3. If the menu option needs to close the original menu, have it set `QuitParameter.quit` to true (using the quitParameter instance passed as an argument).
